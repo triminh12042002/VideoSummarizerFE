@@ -14,7 +14,7 @@ export default function UploadComponent(props) {
 
 
     const handleChange = ({ file }) => {
-        var reader = new FileReader();
+        // var reader = new FileReader();
         console.log(file)
         var url = URL.createObjectURL(file.originFileObj);
         setVideoSrc(url);
@@ -47,7 +47,7 @@ export default function UploadComponent(props) {
                     src={videoSrc}
                     fluid={false}
                     width={480}
-                    height={272}
+                    // height={272}
                 />
             </div>
 

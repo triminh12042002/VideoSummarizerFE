@@ -202,22 +202,22 @@ button[type="submit"]:hover {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 80vh;
+  height: 10vh;
 }
 
 .header-banner {
   position: relative;
-  height: 500px;
+  height: 10vh;
 }
 
 .header-banner h1 {
-  font-size: 50px;
+  font-size: 30px;
   color: #f8f3f3;
 }
 
 .header-banner h3 {
   color: #f8f3f3;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 
@@ -1199,4 +1199,37 @@ h2 {
       display: block;
   }
 
+}
+
+
+/* VideoInput */
+
+/* .App {
+  font-family: sans-serif;
+  padding: 20px;
+} */
+
+.VideoInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+
+.VideoInput_input {
+  display: none;
+}
+
+.VideoInput_video {
+  display: block;
+  margin: 0;
+}
+
+.VideoInput_footer {
+  background: #eee;
+  width: 100%;
+  min-height: 40px;
+  line-height: 40px;
+  text-align: center;
 }
